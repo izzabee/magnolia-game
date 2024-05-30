@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Magnolia CMS Battleship</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="./index.js" defer></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Magnolia CMS Battleship Game!</h1>
+    <h2>Enter the coordinates of the attack you'd like to make below.</h2>
+  </header>
+  <main>
+    <form id="form">
+      <input type="text" placeholder="Example: B7" id="coords" required />
+      <input type="submit" value="Go!" />
+    </form>
+
+    <p class="error"></p>
+
+    <nav class="nav">
+      <ul id="columns"></ul>
+      <ul id="rows"></ul>
+    </nav>
+
+    <div id="game"></div>
+
+    <!-- <button class="reset">Play again!</button> -->
+  </main>
+</body>
+
+</html>
